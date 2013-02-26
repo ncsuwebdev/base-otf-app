@@ -20,10 +20,15 @@
  * @version    SVN: $Id: $
  */
 
+require_once realpath(dirname(__FILE__) . '/../vendor/autoload.php');
+
 ini_set('memory_limit', '-1');
 
 // Define path to application directory
 defined('APPLICATION_PATH') || define('APPLICATION_PATH', realpath(dirname(__FILE__) . '/../application'));   
+
+// Define path to application directory
+defined('VENDOR_PATH') || define('VENDOR_PATH', realpath(dirname(__FILE__) . '/../vendor'));   
 
 // Define application environment
 defined(
@@ -39,7 +44,6 @@ $paths = array(
 // Ensure library/ is on include_path
 set_include_path(implode(PATH_SEPARATOR, $paths));
 
-require_once APPLICATION_PATH . '/../vendor/autoload.php';
 
 /** Zend_Application */
 require_once 'Zend/Application.php';

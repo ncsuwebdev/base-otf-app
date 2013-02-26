@@ -4,17 +4,21 @@ application.ini
 
 /nbproject/private/
 /nbproject/
-/library/Oauth/
-/library/Ot/
 /public/css/ot/
+/public/css/ot
 /public/min/
+/public/min
 /public/scripts/ot/
+/public/scripts/ot
 /public/themes/ot/
+/public/themes/ot
 /vendor/
 /composer.lock
-/library/Ncstate/
-/library/Zend/
 /public/images/ot/
+/public/images/ot
 /application/modules/ot/
+/application/modules/ot
 /application/languages/ot/
+/application/languages/ot
 /otutils/
+/otutils
