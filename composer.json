@@ -23,7 +23,15 @@
         "ncsuwebdev/otframework": "dev-master"
     },
     "scripts": {
-        "post-install-cmd": "Ot_Composer_Installer::install",
-        "post-update-cmd": "Ot_Composer_Installer::install"
+        "post-install-cmd": [
+            "Ot_Composer_Installer::setupSymlinks",
+            "Ot_Composer_Installer::setupWritableDirectories",
+            "Ot_Composer_Installer::copyApplicationIni",
+            "Ot_Composer_Installer::copyDbMigrations"
+        ],
+        "post-update-cmd": [
+            "Ot_Composer_Installer::setupSymlinks",
+            "Ot_Composer_Installer::setupWritableDirectories"
+        ]
     }
 }
