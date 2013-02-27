@@ -21,5 +21,9 @@
     "require": {
         "php": ">=5.3.0",        
         "ncsuwebdev/otframework": "dev-master"
+    },
+    "scripts": {
+        "post-install-cmd": "Ot_Composer_Installer::install",
+        "post-update-cmd": "Ot_Composer_Installer::install"
     }
 }
