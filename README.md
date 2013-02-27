@@ -12,11 +12,10 @@ You can install this via composer (http://getcomposer.org) by:
 
 Once you create the project, you will need to do a few steps to get going:
 
-* Copy /application/configs/application.default.ini to /application/configs/application.ini
-* Create a database and put the credentials in the development section in application.ini
+* Create a database and put the credentials in the development section in [yourproject]/application/configs/application.ini
 * Run the database migration script to install the db.  
    ``` sh
-   $ php otutils/migrate.php -c latest -e development
+   $ php [yourproject]/otutils/migrate.php -c latest -e development
    ```
 
 * Go to http://[path-you-installed-this] and you can log in with admin/admin credentials
