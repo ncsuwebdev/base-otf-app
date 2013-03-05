@@ -22,3 +22,5 @@ application.ini
 /application/languages/ot
 /otutils/
 /otutils
+/public/css/ncsubootstrap/
+/public/css/ncsubootstrap

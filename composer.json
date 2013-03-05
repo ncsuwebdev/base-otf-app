@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": ">=5.3.0",        
-        "ncsuwebdev/otframework": "dev-master"
+        "ncsuwebdev/otframework": "2.8.0"
     },
     "scripts": {
         "post-install-cmd": [
