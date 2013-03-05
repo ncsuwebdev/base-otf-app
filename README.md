@@ -5,7 +5,7 @@ This the a skeleton app to allow a user to quickly start creating an app based o
 You can install this via composer (http://getcomposer.org) by:
 
    ``` sh
-   $ composer.phar create-project ncsuwebdev/base-otf-app [install directory] [version]
+   $ composer.phar create-project ncsuwebdev/base-otf-app [install directory] [base-app version, or leave blank for most recent]
    ```
 **NOTE! The install directory should not exist before running the script**
 
